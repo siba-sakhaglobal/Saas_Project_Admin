@@ -1,0 +1,79 @@
+{
+  "name": "saas-project-admin",
+  "version": "1.0.0",
+  "description": "Multi-tenant SaaS project admin panel",
+  "private": true,
+  "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
+    "@dnd-kit/sortable": "^8.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@hello-pangea/dnd": "^16.6.0",
+    "@heroicons/react": "^2.2.0",
+    "@mui/icons-material": "^7.3.2",
+    "@mui/lab": "^7.0.0-beta.17",
+    "@mui/material": "^7.3.2",
+    "@mui/x-data-grid": "^8.11.1",
+    "@mui/x-date-pickers": "^8.11.1",
+    "@sakha/cms-sdk-js": "file:./vendor/cms-sdk-js",
+    "@tanstack/react-query": "^5.0.0",
+    "axios": "^1.11.0",
+    "chart.js": "^4.4.0",
+    "classnames": "^2.5.1",
+    "date-fns": "^3.0.0",
+    "dayjs": "^1.11.18",
+    "formik": "^2.4.6",
+    "js-cookie": "^3.0.5",
+    "localforage": "^1.10.0",
+    "lucide-react": "^0.300.0",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-datepicker": "^4.25.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.50.0",
+    "react-image-crop": "^11.0.10",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.30.1",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.8.0",
+    "react-toastify": "^10.0.0",
+    "recharts": "^2.15.4",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.0"
+  },
+  "scripts": {
+    "start": "PORT=3003 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5001"
+}

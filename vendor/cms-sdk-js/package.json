@@ -1,0 +1,14 @@
+{
+  "name": "@sakha/cms-sdk-js",
+  "version": "1.0.0",
+  "description": "JavaScript SDK for Sakha MicroSite CMS — project-scoped API client",
+  "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./client": "./src/client.js"
+  },
+  "files": ["src/"],
+  "keywords": ["cms", "sdk", "saas", "multi-tenant"],
+  "license": "MIT"
+}
